@@ -83,7 +83,7 @@
   - 내용: fetch 기반 얇은 래퍼(일반·스트리밍·JSON Schema), 모델명은 환경변수, 응답의 usage를 `ai_usage`에 기록, 대화 시스템 프롬프트·분류 프롬프트·저널 프롬프트(plan.md 8장)
   - 테스트: mock fetch로 요청 본문에 환경변수 모델명 사용 확인, 스트림 조각 결합, usage 기록 호출 확인, 코드에 모델명 문자열 하드코딩 없음(grep 테스트)
 
-- [ ] **T10 대화 함수 `functions/chat`**
+- [x] **T10 대화 함수 `functions/chat`**
   - 내용: JWT 확인 → 사용량 상한 확인 → 위기 1차(키워드)·2차(nano, 타임아웃) → 위기면 `{type:"crisis"}` + `risk_events` 기록(원문 없음) → 아니면 컨텍스트 구성 후 mini 스트리밍(SSE) → 메시지 저장
   - 테스트 (Deno, OpenAI mock):
     - 키워드 위기 → 대화 모델 **호출 0회**, crisis 응답, `risk_events` 1건(내용 컬럼 없음)
