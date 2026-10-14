@@ -1,0 +1,73 @@
+/**
+ * 시작 화면 스타일
+ */
+
+.start-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  padding: var(--space-4);
+  text-align: center;
+}
+
+.start-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.brand-title {
+  font-size: 48px;
+  font-weight: 700;
+  color: var(--accent);
+  margin-bottom: var(--space-2);
+}
+
+.brand-subtitle {
+  font-size: var(--font-size-body);
+  color: var(--text-muted);
+  margin-bottom: var(--space-6);
+  line-height: 1.6;
+}
+
+.start-actions {
+  width: 100%;
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.button-large {
+  height: 56px;
+  font-size: 18px;
+}
+
+.link-secondary {
+  color: var(--text-muted);
+  text-decoration: none;
+  font-size: 14px;
+  padding: var(--space-1);
+}
+
+.link-secondary:hover {
+  color: var(--text);
+}
+
+.error-message {
+  color: var(--alert);
+  font-size: 14px;
+  padding: var(--space-1);
+}
+
+.start-footer {
+  padding: var(--space-3) 0;
+}
+
+.start-footer .text-muted {
+  font-size: 13px;
+  line-height: 1.5;
+}

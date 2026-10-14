@@ -1,0 +1,118 @@
+/**
+ * 온곁 리멤버 - 디자인 토큰
+ * plan.md 9-2 기준
+ */
+
+:root {
+  /* 색상 */
+  --bg: #FAF7F2;           /* 따뜻한 아이보리 배경 */
+  --surface: #FFFFFF;      /* 카드 */
+  --text: #3A3530;         /* 본문 */
+  --text-muted: #7A7068;   /* 보조 문구 */
+  --accent: #C98B6B;       /* 테라코타 주요 버튼 */
+  --calm: #8FA89B;         /* 세이지 따뜻함·회복 */
+  --alert: #B5574B;        /* 위기 안내 강조 */
+
+  /* 감정 색 (그래프) */
+  --emotion-longing: #7C93B8;   /* 그리움 */
+  --emotion-guilt: #B88A7C;     /* 죄책감 */
+  --emotion-lethargy: #9A9A9A;  /* 무기력 */
+  --emotion-warmth: #8FA89B;    /* 따뜻함 */
+
+  /* 타이포그래피 */
+  --font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, sans-serif;
+  --font-size-body: 16px;
+  --font-size-title: 20px;
+  --font-size-large-title: 24px;
+
+  /* 간격 (8의 배수) */
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 32px;
+  --space-5: 40px;
+  --space-6: 48px;
+
+  /* 모서리 */
+  --radius-card: 16px;
+  --radius-button: 8px;
+
+  /* 버튼 */
+  --button-height: 48px;
+}
+
+/* 기본 스타일 리셋 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family);
+  font-size: var(--font-size-body);
+  color: var(--text);
+  background-color: var(--bg);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 버튼 기본 스타일 */
+button {
+  font-family: var(--font-family);
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+/* 카드 스타일 */
+.card {
+  background-color: var(--surface);
+  border-radius: var(--radius-card);
+  padding: var(--space-2);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+/* 주요 버튼 */
+.button-primary {
+  height: var(--button-height);
+  background-color: var(--accent);
+  color: white;
+  border-radius: var(--radius-button);
+  padding: 0 var(--space-3);
+  font-size: var(--font-size-body);
+  font-weight: 600;
+  transition: opacity 0.2s;
+}
+
+.button-primary:hover {
+  opacity: 0.9;
+}
+
+.button-primary:active {
+  opacity: 0.8;
+}
+
+/* 보조 버튼 */
+.button-secondary {
+  height: var(--button-height);
+  background-color: transparent;
+  color: var(--text);
+  border: 1px solid var(--text-muted);
+  border-radius: var(--radius-button);
+  padding: 0 var(--space-3);
+  font-size: var(--font-size-body);
+}
+
+/* 텍스트 스타일 */
+.text-muted {
+  color: var(--text-muted);
+}
+
+/* 앱 컨테이너 */
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

@@ -101,7 +101,7 @@
 
 ## P4. 프론트엔드
 
-- [ ] **T12 앱 기반 (라우팅·토큰·체험 진입)**
+- [x] **T12 앱 기반 (라우팅·토큰·체험 진입)**
   - 내용: react-router 화면 골격, `tokens.css`(plan.md 9-2), 하단 탭 4개, supabase 클라이언트, 시작 화면, [체험 시작하기] → `signInAnonymously` → `trial-seed` → 홈, `?start=demo` 자동 진입, 기존 세션 재사용
   - 테스트 (RTL, supabase mock): 버튼 클릭 시 익명 로그인·시드 호출 순서, `?start=demo` 시 버튼 없이 홈 이동, 세션 있으면 시작 화면 건너뜀
   - 관련: F01, AC-01-1

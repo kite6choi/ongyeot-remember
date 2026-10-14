@@ -1,0 +1,28 @@
+/**
+ * 온곁 리멤버 - 앱 레이아웃
+ */
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  max-width: 480px;
+  margin: 0 auto;
+  position: relative;
+  background-color: var(--bg);
+}
+
+/* 메인 콘텐츠 영역 (탭 높이만큼 하단 패딩) */
+.screen {
+  flex: 1;
+  padding: var(--space-2);
+  padding-bottom: 80px; /* 탭 높이 + 여백 */
+  overflow-y: auto;
+}
+
+/* 화면 제목 */
+.screen-title {
+  font-size: var(--font-size-large-title);
+  font-weight: 700;
+  margin-bottom: var(--space-3);
+}
