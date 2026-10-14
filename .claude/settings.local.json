@@ -18,7 +18,9 @@
       "Bash(deno test:*)",
       "Bash(supabase projects list:*)",
       "Bash(supabase functions list:*)",
-      "Bash(vercel:*)"
+      "Bash(vercel:*)",
+      "Bash(npm cache clean:*)",
+      "Bash(git restore:*)"
     ]
   }
 }
