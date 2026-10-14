@@ -72,7 +72,7 @@
   - 테스트: `supabase db push`로 클라우드 프로젝트에 적용 성공, `npm run test:rls` — 익명 사용자 A·B 생성 → A 데이터 생성 → B로 6개 테이블 조회 시 0건, B가 A의 `memories` 파일 접근 불가
   - 관련: AC-01-2
 
-- [ ] **T08 체험 시드 `shared/seed.ts` + `functions/trial-seed`**
+- [x] **T08 체험 시드 `shared/seed.ts` + `functions/trial-seed`**
   - 내용: 시드 생성일 기준 상대 날짜(떠난 날 15일 전, 저널 최근 7일), 지은·콩이·추억 3개·저널 7일치(plan.md 10장 수치), 이미 있으면 건너뜀, `reset:true`면 본인 데이터만 삭제 후 재생성
   - 테스트: (Vitest) 오늘 날짜를 바꿔도 "15일째"·최근 7일 유지, 시드 저널이 `validateJournal` 통과, 시드로 `buildRecoveryCards`가 회복 문구를 만듦 / (Deno) 중복 호출 시 1세트만 존재, reset 시 다른 사용자 데이터 유지
   - 관련: AC-01-1

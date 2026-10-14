@@ -35,6 +35,7 @@ Thumbs.db
 
 # Supabase
 .supabase/
+supabase/.temp/
 
 # Harness 결과
 harness/reports/

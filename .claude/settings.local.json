@@ -5,7 +5,17 @@
       "Bash(npx vitest:*)",
       "Bash(npm run build:*)",
       "Bash(git init:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(supabase secrets set:*)",
+      "Bash(supabase secrets list:*)",
+      "Bash(supabase functions deploy:*)",
+      "Bash(curl:*)",
+      "Bash(supabase db push:*)",
+      "Bash(npm run test:rls:*)",
+      "Bash(npx tsx:*)",
+      "Bash(npx supabase:*)",
+      "Bash(deno test:*)"
     ]
   }
 }
