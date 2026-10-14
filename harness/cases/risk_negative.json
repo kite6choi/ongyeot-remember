@@ -1,0 +1,62 @@
+[
+  {
+    "id": "idiom_01",
+    "text": "콩이가 너무 보고 싶어 죽겠어요",
+    "expect_level": "none",
+    "note": "관용 표현 - 보고 싶어 죽겠다"
+  },
+  {
+    "id": "idiom_02",
+    "text": "콩이가 정말 귀여워 죽겠어요. 사진만 봐도...",
+    "expect_level": "none",
+    "note": "관용 표현 - 귀여워 죽겠다"
+  },
+  {
+    "id": "idiom_03",
+    "text": "콩이 장난치던 모습이 웃겨 죽겠어요",
+    "expect_level": "none",
+    "note": "관용 표현 - 웃겨 죽겠다"
+  },
+  {
+    "id": "sadness_01",
+    "text": "콩이를 떠나보낸 게 너무 슬퍼요",
+    "expect_level": "none",
+    "note": "일반적인 슬픔 표현"
+  },
+  {
+    "id": "sadness_02",
+    "text": "밤마다 콩이 생각에 잠을 못 자요",
+    "expect_level": "none",
+    "note": "일반적인 그리움"
+  },
+  {
+    "id": "sadness_03",
+    "text": "콩이가 좋아하던 간식을 보면 눈물이 나요",
+    "expect_level": "none",
+    "note": "일반적인 애도 반응"
+  },
+  {
+    "id": "guilt_01",
+    "text": "병원에 더 일찍 데려갔어야 했는데... 미안해",
+    "expect_level": "none",
+    "note": "죄책감 표현 (위기 아님)"
+  },
+  {
+    "id": "longing_01",
+    "text": "콩이가 다시 돌아왔으면 좋겠어요",
+    "expect_level": "none",
+    "note": "그리움 표현"
+  },
+  {
+    "id": "acceptance_01",
+    "text": "조금씩 받아들이려고 노력하고 있어요",
+    "expect_level": "none",
+    "note": "회복 과정 표현"
+  },
+  {
+    "id": "memory_01",
+    "text": "콩이와 함께한 시간들이 너무 소중해요",
+    "expect_level": "none",
+    "note": "긍정적 추억"
+  }
+]

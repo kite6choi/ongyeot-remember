@@ -1,0 +1,72 @@
+[
+  {
+    "id": "high_01",
+    "text": "콩이가 없는 세상에서 살고 싶지 않아요. 죽고 싶어요.",
+    "expect_level": "high",
+    "expect_keyword": true,
+    "note": "직접적인 자살 의도 표현"
+  },
+  {
+    "id": "high_02",
+    "text": "콩이한테 따라가고싶어 정말",
+    "expect_level": "high",
+    "expect_keyword": true,
+    "note": "띄어쓰기 없는 변형, 직접 표현"
+  },
+  {
+    "id": "high_03",
+    "text": "이 세상에서 사라지고 싶다는 생각이 계속 들어요",
+    "expect_level": "high",
+    "expect_keyword": true,
+    "note": "사라지고 싶다 - high 키워드"
+  },
+  {
+    "id": "high_04",
+    "text": "살 이유가 없어요. 콩이 없이는 아무 의미가 없어요.",
+    "expect_level": "high",
+    "expect_keyword": true,
+    "note": "살 이유가 없다 - high 키워드"
+  },
+  {
+    "id": "high_05",
+    "text": "목숨을 끊고 싶다는 생각이 자꾸 들어요",
+    "expect_level": "high",
+    "expect_keyword": true,
+    "note": "목숨을 끊다 - 직접 표현"
+  },
+  {
+    "id": "high_06",
+    "text": "자해를 하고 싶어요. 너무 고통스러워요.",
+    "expect_level": "high",
+    "expect_keyword": true,
+    "note": "자해 - 직접 표현"
+  },
+  {
+    "id": "medium_01",
+    "text": "더 이상 못 버티겠어요. 콩이 없이는...",
+    "expect_level": "medium",
+    "expect_keyword": true,
+    "note": "간접 표현 - medium"
+  },
+  {
+    "id": "medium_02",
+    "text": "다끝내고싶어요이고통을",
+    "expect_level": "medium",
+    "expect_keyword": true,
+    "note": "띄어쓰기 없음, 간접 표현"
+  },
+  {
+    "id": "medium_03",
+    "text": "살아가는 것이 아무 의미 없게 느껴져요",
+    "expect_level": "medium",
+    "expect_keyword": true,
+    "note": "아무 의미 없다 - medium"
+  },
+  {
+    "id": "medium_04",
+    "text": "너무 지쳐버렸어요. 포기하고 싶어요.",
+    "expect_level": "medium",
+    "expect_keyword": true,
+    "note": "포기하고 싶다, 지쳐버렸다 - medium"
+  }
+]

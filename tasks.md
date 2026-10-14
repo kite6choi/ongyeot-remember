@@ -44,7 +44,7 @@
 
 ## P1. 안전 로직 (순수 TS, 인프라 없이 먼저)
 
-- [ ] **T03 위기 키워드 규칙 `shared/risk.ts`**
+- [x] **T03 위기 키워드 규칙 `shared/risk.ts`**
   - 내용: `checkRiskKeywords(text) → 'none'|'medium'|'high'`, 공백 제거 문장 검사, 관용 표현 예외(plan.md 8-4)
   - 케이스: `harness/cases/risk_positive.json`(10개, 직접·간접·띄어쓰기 변형), `risk_negative.json`(10개, "보고 싶어 죽겠어" 등 관용·일반 슬픔)
   - 테스트: 양성 케이스 중 키워드로 잡혀야 하는 항목(`expect_keyword: true`) 100% 감지, 음성 케이스 high 판정 0건
