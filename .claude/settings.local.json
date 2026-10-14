@@ -15,7 +15,10 @@
       "Bash(npm run test:rls:*)",
       "Bash(npx tsx:*)",
       "Bash(npx supabase:*)",
-      "Bash(deno test:*)"
+      "Bash(deno test:*)",
+      "Bash(supabase projects list:*)",
+      "Bash(supabase functions list:*)",
+      "Bash(vercel:*)"
     ]
   }
 }
