@@ -60,7 +60,7 @@
   - 테스트: 정상 JSON 통과, 필드 누락·점수 범위 초과·문자열 점수·긴 headline 각각 처리 확인
   - 관련: AC-04-2
 
-- [ ] **T06 회복 규칙 `shared/recovery.ts`**
+- [x] **T06 회복 규칙 `shared/recovery.ts`**
   - 내용: plan.md 8-6 규칙 4개, `buildRecoveryCards(journals, petName) → Card[]`
   - 테스트: 무기력 3일 연속 ≥7 → 상담 제안 카드가 첫 번째, 따뜻함 상승 문구, 죄책감 하락 문구, 저널 3개 미만 문구
   - 관련: AC-06-2
