@@ -94,7 +94,7 @@
     - 컨텍스트에 추억 메모·최근 저널 3개·최근 12턴만 포함
   - 관련: AC-01-3, AC-05-1, AC-05-3
 
-- [ ] **T11 저널 함수 `functions/journal`**
+- [x] **T11 저널 함수 `functions/journal`**
   - 내용: 대화 조회 → nano JSON Schema 호출 → `validateJournal` → 실패 시 1회 재시도 → 초안 반환(저장은 프론트)
   - 테스트 (Deno, mock): 정상 JSON → 초안 반환, 첫 응답 잘못된 JSON → 재시도 후 성공, 두 번 실패 → 오류 응답, 타인 대화 ID → 403
   - 관련: AC-04-1, AC-04-2
