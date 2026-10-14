@@ -30,7 +30,7 @@
 
 ## P0. 준비
 
-- [ ] **T01 프로젝트 골격**
+- [x] **T01 프로젝트 골격**
   - 내용: 루트 `package.json`(workspaces: `web`, `shared`, `harness`), `web/`에 Vite + React + TS, Vitest·RTL 설정, `shared/` 빈 모듈, `.gitignore`(`.env` 포함), `.env.example`(plan.md 4장 키 전부), README에 실행 방법
   - 완료 조건: `npm install` → `npm test`(샘플 테스트 1개) 통과, `npm run build` 성공, `git init` 후 첫 커밋
 
