@@ -55,7 +55,7 @@
   - 테스트: 분류별 위반 문장 각 2개 감지, 정상 공감 문장 10개 오탐 0건
   - 관련: AC-03-2, AC-03-3
 
-- [ ] **T05 저널 검증 `shared/journal.ts`**
+- [x] **T05 저널 검증 `shared/journal.ts`**
   - 내용: `validateJournal(raw) → {ok, journal, errors}` — 필수 필드, 점수 0~10 정수 보정, headline 30자, moments 최대 3개, 금지 표현 검사
   - 테스트: 정상 JSON 통과, 필드 누락·점수 범위 초과·문자열 점수·긴 headline 각각 처리 확인
   - 관련: AC-04-2
