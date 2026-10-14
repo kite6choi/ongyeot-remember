@@ -67,7 +67,7 @@
 
 ## P2. 데이터베이스
 
-- [ ] **T07 스키마·RLS 마이그레이션 `supabase/migrations/001_init.sql`**
+- [x] **T07 스키마·RLS 마이그레이션 `supabase/migrations/001_init.sql`**
   - 내용: plan.md 6장 테이블 7개, 인덱스, RLS 정책, `risk_events`·`ai_usage` 클라이언트 insert 금지, Storage 버킷 `memories` 정책
   - 테스트: `supabase db push`로 클라우드 프로젝트에 적용 성공, `npm run test:rls` — 익명 사용자 A·B 생성 → A 데이터 생성 → B로 6개 테이블 조회 시 0건, B가 A의 `memories` 파일 접근 불가
   - 관련: AC-01-2
