@@ -10,6 +10,7 @@ import HomeScreen from './screens/HomeScreen'
 import ChatScreen from './screens/ChatScreen'
 import JournalsScreen from './screens/JournalsScreen'
 import DashboardScreen from './screens/DashboardScreen'
+import CounselorScreen from './screens/CounselorScreen'
 import TabNavigation from './components/TabNavigation'
 import './tokens.css'
 import './App.css'
@@ -83,6 +84,14 @@ function App() {
             path="/dashboard"
             element={
               isAuthenticated ? <DashboardScreen /> : <Navigate to="/" replace />
+            }
+          />
+
+          {/* 상담사 연결 */}
+          <Route
+            path="/counselor"
+            element={
+              isAuthenticated ? <CounselorScreen /> : <Navigate to="/" replace />
             }
           />
 

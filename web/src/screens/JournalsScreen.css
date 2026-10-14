@@ -1,0 +1,43 @@
+/**
+ * 저널 목록 스타일
+ */
+
+.journals-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.journal-item {
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.journal-item:hover {
+  transform: translateY(-2px);
+}
+
+.journal-date {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin-bottom: var(--space-1);
+}
+
+.journal-headline {
+  font-size: var(--font-size-title);
+  font-weight: 600;
+  margin-bottom: var(--space-2);
+}
+
+.journal-scores {
+  display: flex;
+  gap: var(--space-2);
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.journal-scores span {
+  padding: 4px 8px;
+  background-color: var(--bg);
+  border-radius: 4px;
+}

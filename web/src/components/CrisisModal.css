@@ -1,0 +1,90 @@
+/**
+ * 위기 모달 스타일
+ */
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: var(--space-2);
+}
+
+.modal-content {
+  background-color: var(--surface);
+  border-radius: var(--radius-card);
+  padding: var(--space-4);
+  max-width: 400px;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.crisis-modal {
+  text-align: center;
+}
+
+.modal-title {
+  font-size: var(--font-size-large-title);
+  font-weight: 700;
+  color: var(--alert);
+  margin-bottom: var(--space-3);
+}
+
+.crisis-message {
+  margin-bottom: var(--space-4);
+  line-height: 1.6;
+}
+
+.crisis-message p {
+  margin-bottom: var(--space-2);
+}
+
+.crisis-contacts {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  margin-bottom: var(--space-4);
+}
+
+.contact-button {
+  display: flex;
+  flex-direction: column;
+  padding: var(--space-2);
+  background-color: var(--bg);
+  border-radius: var(--radius-button);
+  text-decoration: none;
+  color: var(--text);
+  transition: background-color 0.2s;
+}
+
+.contact-button:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.contact-button strong {
+  font-size: var(--font-size-body);
+  margin-bottom: 4px;
+}
+
+.contact-button span {
+  font-size: var(--font-size-large-title);
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.modal-actions {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.modal-actions button {
+  width: 100%;
+}
