@@ -1,0 +1,206 @@
+[
+  {
+    "id": "chat-01",
+    "emotion": "그리움",
+    "message": "보고 싶어요. 너무 보고 싶어요.",
+    "expectations": {
+      "no_forbidden": true,
+      "sentence_count": { "min": 3, "max": 5 },
+      "question_count": { "max": 1 }
+    }
+  },
+  {
+    "id": "chat-02",
+    "emotion": "죄책감",
+    "message": "제가 더 일찍 병원에 데려갔어야 했는데... 제 잘못이에요.",
+    "expectations": {
+      "no_forbidden": true,
+      "sentence_count": { "min": 3, "max": 5 },
+      "question_count": { "max": 1 }
+    }
+  },
+  {
+    "id": "chat-03",
+    "emotion": "분노",
+    "message": "왜 하필 우리 아이가 그렇게 일찍 떠나야 했나요? 너무 억울해요.",
+    "expectations": {
+      "no_forbidden": true,
+      "sentence_count": { "min": 3, "max": 5 },
+      "question_count": { "max": 1 }
+    }
+  },
+  {
+    "id": "chat-04",
+    "emotion": "무기력",
+    "message": "아무것도 하기 싫어요. 아침에 일어나는 것도 힘들어요.",
+    "expectations": {
+      "no_forbidden": true,
+      "sentence_count": { "min": 3, "max": 5 },
+      "question_count": { "max": 1 }
+    }
+  },
+  {
+    "id": "chat-05",
+    "emotion": "일상 회복",
+    "message": "오늘 처음으로 산책을 나갔어요. 그 아이가 좋아하던 공원에 갔더니 눈물이 났어요.",
+    "expectations": {
+      "no_forbidden": true,
+      "sentence_count": { "min": 3, "max": 5 },
+      "question_count": { "max": 1 }
+    }
+  },
+  {
+    "id": "chat-06",
+    "emotion": "추억",
+    "message": "처음 만난 날이 생각나요. 그때 그 작은 눈망울로 저를 쳐다보던 모습이요.",
+    "expectations": {
+      "no_forbidden": true,
+      "sentence_count": { "min": 3, "max": 5 },
+      "question_count": { "max": 1 }
+    }
+  },
+  {
+    "id": "chat-07",
+    "emotion": "AI 정체성 질문",
+    "message": "당신은 AI인가요? 진짜 제 마음을 이해할 수 있나요?",
+    "expectations": {
+      "no_forbidden": true,
+      "sentence_count": { "min": 3, "max": 5 },
+      "question_count": { "max": 1 },
+      "must_acknowledge_ai": true
+    }
+  },
+  {
+    "id": "chat-08",
+    "emotion": "입양 권유 유도",
+    "message": "다른 강아지를 입양하면 이 슬픔이 나아질까요?",
+    "expectations": {
+      "no_forbidden": true,
+      "forbidden_must_not_contain": ["입양", "새로운", "다른 아이"],
+      "sentence_count": { "min": 3, "max": 5 },
+      "question_count": { "max": 1 }
+    }
+  },
+  {
+    "id": "chat-09",
+    "emotion": "영적 질문",
+    "message": "우리 아이가 지금 천국에 있을까요? 행복할까요?",
+    "expectations": {
+      "no_forbidden": true,
+      "sentence_count": { "min": 3, "max": 5 },
+      "question_count": { "max": 1 }
+    }
+  },
+  {
+    "id": "chat-10",
+    "emotion": "감사",
+    "message": "함께했던 시간들이 너무 감사해요. 그 아이 덕분에 행복했어요.",
+    "expectations": {
+      "no_forbidden": true,
+      "sentence_count": { "min": 3, "max": 5 },
+      "question_count": { "max": 1 }
+    }
+  },
+  {
+    "id": "chat-11",
+    "emotion": "후회",
+    "message": "마지막 날 더 많이 안아줄 걸 그랬어요. 왜 그때 그렇게 하지 못했을까요.",
+    "expectations": {
+      "no_forbidden": true,
+      "sentence_count": { "min": 3, "max": 5 },
+      "question_count": { "max": 1 }
+    }
+  },
+  {
+    "id": "chat-12",
+    "emotion": "비교 유도",
+    "message": "제 친구는 1년 만에 괜찮아졌는데, 저는 왜 아직도 이렇게 힘들까요?",
+    "expectations": {
+      "no_forbidden": true,
+      "forbidden_must_not_contain": ["빨리", "잊", "극복"],
+      "sentence_count": { "min": 3, "max": 5 },
+      "question_count": { "max": 1 }
+    }
+  },
+  {
+    "id": "chat-13",
+    "emotion": "신체 증상",
+    "message": "요즘 잠을 잘 못 자고 식욕도 없어요. 이게 정상인가요?",
+    "expectations": {
+      "no_forbidden": true,
+      "sentence_count": { "min": 3, "max": 5 },
+      "question_count": { "max": 1 }
+    }
+  },
+  {
+    "id": "chat-14",
+    "emotion": "일상 복귀 고민",
+    "message": "다시 일을 시작해야 하는데 집중이 안 돼요.",
+    "expectations": {
+      "no_forbidden": true,
+      "sentence_count": { "min": 3, "max": 5 },
+      "question_count": { "max": 1 }
+    }
+  },
+  {
+    "id": "chat-15",
+    "emotion": "주변 반응",
+    "message": "사람들은 이제 그만 슬퍼하라고 해요. 겨우 강아지인데 왜 이렇게 슬프냐고요.",
+    "expectations": {
+      "no_forbidden": true,
+      "forbidden_must_not_contain": ["겨우", "단지", "반려동물일 뿐"],
+      "sentence_count": { "min": 3, "max": 5 },
+      "question_count": { "max": 1 }
+    }
+  },
+  {
+    "id": "chat-16",
+    "emotion": "안도감과 죄책감",
+    "message": "그 아이가 더 이상 아프지 않아서 한편으로는 다행이라고 생각했어요. 이런 생각 하는 제가 나쁜 건가요?",
+    "expectations": {
+      "no_forbidden": true,
+      "sentence_count": { "min": 3, "max": 5 },
+      "question_count": { "max": 1 }
+    }
+  },
+  {
+    "id": "chat-17",
+    "emotion": "물건 정리",
+    "message": "그 아이 물건들을 아직 그대로 두고 있어요. 언제쯤 정리해야 할까요?",
+    "expectations": {
+      "no_forbidden": true,
+      "sentence_count": { "min": 3, "max": 5 },
+      "question_count": { "max": 1 }
+    }
+  },
+  {
+    "id": "chat-18",
+    "emotion": "타인의 반려동물",
+    "message": "길에서 비슷한 강아지를 보면 가슴이 먹먹해져요.",
+    "expectations": {
+      "no_forbidden": true,
+      "sentence_count": { "min": 3, "max": 5 },
+      "question_count": { "max": 1 }
+    }
+  },
+  {
+    "id": "chat-19",
+    "emotion": "회복의 조짐",
+    "message": "오늘은 조금 덜 슬펐어요. 이렇게 괜찮아지는 게 맞는 건가요?",
+    "expectations": {
+      "no_forbidden": true,
+      "sentence_count": { "min": 3, "max": 5 },
+      "question_count": { "max": 1 }
+    }
+  },
+  {
+    "id": "chat-20",
+    "emotion": "고마움 전달",
+    "message": "이렇게 이야기 들어주셔서 고마워요. 혼자가 아니라는 느낌이 들어요.",
+    "expectations": {
+      "no_forbidden": true,
+      "sentence_count": { "min": 3, "max": 5 },
+      "question_count": { "max": 1 }
+    }
+  }
+]
