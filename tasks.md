@@ -50,7 +50,7 @@
   - 테스트: 양성 케이스 중 키워드로 잡혀야 하는 항목(`expect_keyword: true`) 100% 감지, 음성 케이스 high 판정 0건
   - 관련: AC-05-1, AC-05-2
 
-- [ ] **T04 금지 표현 검사 `shared/forbidden.ts`**
+- [x] **T04 금지 표현 검사 `shared/forbidden.ts`**
   - 내용: plan.md 8-3 패턴 목록, `findForbidden(text) → string[]`
   - 테스트: 분류별 위반 문장 각 2개 감지, 정상 공감 문장 10개 오탐 0건
   - 관련: AC-03-2, AC-03-3
