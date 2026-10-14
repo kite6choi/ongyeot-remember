@@ -34,7 +34,7 @@
   - 내용: 루트 `package.json`(workspaces: `web`, `shared`, `harness`), `web/`에 Vite + React + TS, Vitest·RTL 설정, `shared/` 빈 모듈, `.gitignore`(`.env` 포함), `.env.example`(plan.md 4장 키 전부), README에 실행 방법
   - 완료 조건: `npm install` → `npm test`(샘플 테스트 1개) 통과, `npm run build` 성공, `git init` 후 첫 커밋
 
-- [ ] **T02 [사람] 외부 서비스 준비**
+- [x] **T02 [사람] 외부 서비스 준비**
   - Supabase 프로젝트 생성, Authentication → Anonymous Sign-ins 켜기
   - 클라우드 프로젝트 1개 생성: `ongyeot`(개발·테스트·시연 공용). 로컬 Supabase·Docker는 사용하지 않는다.
   - Supabase CLI 설치, `supabase init`, `supabase login`, `supabase link --project-ref <project ref>`
