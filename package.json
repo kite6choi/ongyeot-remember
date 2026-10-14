@@ -1,0 +1,21 @@
+{
+  "name": "ongyeot-remember",
+  "version": "0.6.0",
+  "private": true,
+  "description": "펫로스 보호자 마음 회복 AI 케어 PWA",
+  "workspaces": [
+    "web",
+    "shared",
+    "harness"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w web",
+    "build": "npm run build -w web",
+    "test": "node scripts/run-tests.js",
+    "test:rls": "node scripts/test_rls.js",
+    "eval": "npm run eval -w harness"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

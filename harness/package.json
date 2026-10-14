@@ -1,0 +1,13 @@
+{
+  "name": "@ongyeot/harness",
+  "version": "0.6.0",
+  "type": "module",
+  "scripts": {
+    "eval": "tsx run_eval.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.0"
+  }
+}

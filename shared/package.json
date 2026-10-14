@@ -1,0 +1,15 @@
+{
+  "name": "@ongyeot/shared",
+  "version": "0.6.0",
+  "type": "module",
+  "main": "./index.ts",
+  "scripts": {
+    "test": "npx vitest run",
+    "test:watch": "npx vitest"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.3.0",
+    "vitest": "^1.0.0"
+  }
+}
