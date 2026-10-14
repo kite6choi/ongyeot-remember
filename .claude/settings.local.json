@@ -20,7 +20,11 @@
       "Bash(supabase functions list:*)",
       "Bash(vercel:*)",
       "Bash(npm cache clean:*)",
-      "Bash(git restore:*)"
+      "Bash(git restore:*)",
+      "Bash(supabase projects api-keys:*)",
+      "Bash(gh:*)",
+      "Bash(git remote set-url:*)",
+      "Bash(git push:*)"
     ]
   }
 }

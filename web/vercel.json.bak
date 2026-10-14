@@ -1,8 +1,8 @@
 {
-  "buildCommand": "echo 'Using prebuilt files'",
+  "framework": "vite",
+  "buildCommand": "npm run build",
   "outputDirectory": "dist",
-  "installCommand": "echo 'Skipping install'",
-  "framework": null,
+  "installCommand": "npm install",
   "rewrites": [
     {
       "source": "/(.*)",
