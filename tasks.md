@@ -79,7 +79,7 @@
 
 ## P3. Edge Functions
 
-- [ ] **T09 OpenAI 호출 모듈 `functions/_shared/openai.ts`, `prompts.ts`**
+- [x] **T09 OpenAI 호출 모듈 `functions/_shared/openai.ts`, `prompts.ts`**
   - 내용: fetch 기반 얇은 래퍼(일반·스트리밍·JSON Schema), 모델명은 환경변수, 응답의 usage를 `ai_usage`에 기록, 대화 시스템 프롬프트·분류 프롬프트·저널 프롬프트(plan.md 8장)
   - 테스트: mock fetch로 요청 본문에 환경변수 모델명 사용 확인, 스트림 조각 결합, usage 기록 호출 확인, 코드에 모델명 문자열 하드코딩 없음(grep 테스트)
 
